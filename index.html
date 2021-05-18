@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+    <title>TO DO LIST</title>
+</head>
+<body>
+    <div class="container wrap">
+        <div class="card my-4 py-4 px-2">
+            <h3 class="text-center text-success">To Do List</h3>
+            <hr>
+            <div class="input-group mb-3">
+                <input type="text" class="form-control outline-success input" placeholder="New Task" aria-label="Task" aria-describedby="button-addon2">
+                <button class="btn btn-outline-success" type="button" id="button-addon2">Submit</button>
+            </div>
+            <br><br>
+            <h4>Task Added</h4>
+            <ol class="list-group list-group-numbered">
+                <!-- <li class="list-group-item">Cras justo odio</li>
+                <li class="list-group-item">Cras justo odio</li>
+                <li class="list-group-item">Cras justo odio</li> -->
+            </ol>
+            <br><br>
+            <div class="clear-btn text-right">
+                <button class="btn btn-outline-danger">Clear</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="/bootstrap/jquery3.4.1.js"></script>
+    <script src="/bootstrap/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

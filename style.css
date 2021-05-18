@@ -1,0 +1,13 @@
+.wrap {
+    padding: 1rem 15rem;
+    /* background-color: #000; */
+}
+/* li {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    background-color: red;
+} */
+.line-through {
+    text-decoration: line-through;
+}
